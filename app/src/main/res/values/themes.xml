@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyTestingApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+    <!-- no title bar theme. -->
+    <style name="ThemeNoTitleBarHeader" parent="Theme.MaterialComponents.Light.NoActionBar" >
+<!--        <item name="android:statusBarColor">@color/blue</item>-->
+    </style>
+
+
+    <!-- Dialog theme here. -->
+    <style name="CustomDialogTheme">
+        <!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowBackground">@color/dialogBackground</item>
+    </style>
+
+
+    <!-- Dialog theme here. -->
+    <style name="CustomDialogThemePermission" parent="android:Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">
+        <!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>
