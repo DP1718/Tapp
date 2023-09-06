@@ -7,6 +7,7 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class AppDelegate : Application() {
 
+    //application instace create
      companion object{
         lateinit var instance: AppDelegate
      }
