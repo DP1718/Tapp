@@ -124,7 +124,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
 
     //swipe to refresh
-    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
+//    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
 
     //room
     implementation "androidx.room:room-runtime:2.3.0"

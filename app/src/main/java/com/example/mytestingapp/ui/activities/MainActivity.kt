@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private var myRunnable: Runnable = Runnable(){
-        binding.swipeRefresh.isRefreshing = false
+        binding.swipeRefreshTest.isRefreshing = false
     }
 
     override fun onStop() {
@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
     /**  click event listener call function */
     private fun clickEventListenerCall(){
-        binding.swipeRefresh.setOnRefreshListener {
+        binding.swipeRefreshTest.setOnRefreshListener {
 
                 getDataFromServer(pageCount)
 
